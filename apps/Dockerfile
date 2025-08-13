@@ -11,7 +11,7 @@ ADD . /app
 LABEL email="acep@ilcs.co.id"
 
 # PERINTAH YANG DIJALANKAN PADA SAAT CONTAINER SUDAH UP
-COM ["npm", "start"]
+CMD ["npm", "start"]
 
 # DESCRIBE EXPOSE PORT
 EXPOSE 3000
